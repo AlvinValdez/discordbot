@@ -7,11 +7,11 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '?holdup') {
-    	message.reply('https://media.giphy.com/media/CNJZ5EYc5pPK8/giphy.gif (This bot was created by Goldie.)');
+    	message.reply('https://media.giphy.com/media/CNJZ5EYc5pPK8/giphy.gif');
   	}else if(message.content === '?jail'){
-		message.reply('https://media.giphy.com/media/26BRqr52AQWxuUkda/giphy.gif (This bot was created by Goldie.)');
+		message.reply('https://media.giphy.com/media/26BRqr52AQWxuUkda/giphy.gif');
 	}else if(message.content === '?byebye'){
-		message.reply('https://media.giphy.com/media/26BRqr52AQWxuUkda/giphy.gif (This bot was created by Goldie.)');
+		message.reply('http://gifimage.net/wp-content/uploads/2017/10/bye-have-a-beautiful-time-gif-3.gif');
 	}
 });
 
