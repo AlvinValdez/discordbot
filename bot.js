@@ -10,6 +10,8 @@ client.on('message', message => {
     	message.reply('https://media.giphy.com/media/CNJZ5EYc5pPK8/giphy.gif');
   	}else if(message.content === '?jail'){
 		message.reply('https://media.giphy.com/media/26BRqr52AQWxuUkda/giphy.gif');
+	}else if(message.content === '?byebye'){
+		message.reply('https://media.giphy.com/media/26BRqr52AQWxuUkda/giphy.gif');
 	}
 });
 
