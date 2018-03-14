@@ -6,9 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
+    if (message.content === '?holdup') {
+    	message.reply('https://media.giphy.com/media/CNJZ5EYc5pPK8/giphy.gif');
+  	}else if(message.content === '?jail'){
+		message.reply('https://media.giphy.com/media/26BRqr52AQWxuUkda/giphy.gif');
+	}
 });
 
 // THIS  MUST  BE  THIS  WAY
