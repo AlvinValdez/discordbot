@@ -19,11 +19,11 @@ client.on('message', message => {
 
 client.on("guildCreate", (guild) => {
 
-    console.log(client.user.username + " was invited to and joined " + guild.name);
+    console.defaultChannel.sendMessage(client.user.username + " was invited to and joined " + guild.name);
 });
 client.on("guildMemberAdd", (guild, member) => {
 
-    console.log(member.user.username + " joined " + guild.name);
+    console.defaultChannel.sendMessage(member.user.username + " joined " + guild.name);
 });
 
 // THIS  MUST  BE  THIS  WAY
