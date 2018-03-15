@@ -13,6 +13,17 @@ client.on('message', message => {
 	}else if(message.content === '?byebye'){
 		message.reply('http://gifimage.net/wp-content/uploads/2017/10/bye-have-a-beautiful-time-gif-3.gif');
 	}
+
+
+});
+
+client.on("guildCreate", (guild) => {
+
+    console.log(client.user.username + " was invited to and joined " + guild.name);
+});
+client.on("guildMemberAdd", (guild, member) => {
+
+    console.log(member.user.username + " joined " + guild.name);
 });
 
 // THIS  MUST  BE  THIS  WAY
